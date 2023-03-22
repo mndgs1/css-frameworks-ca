@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login | The Inn</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js>" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center my-5">Login/Register</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-5">
+                    <form action="/profile/index.html" method="POST">
+                        <div class="mb-3 form-floating">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="email@email.com" required />
+                            <label for="email" class="form-label">Email address</label>
+                        </div>
+                        <div class="mb-3 form-floating">
+                            <input type="password" class="form-control" id="password" name="password" minlength="8" placeholder="password" required />
+                            <label for="password" class="form-label">Password</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        <!-- <button type="submit" class="btn btn-secondary">Register</button> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
