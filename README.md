@@ -1,2 +1,2 @@
 # css-frameworks-ca
-Replace this text with a description of your social media project.
+I was inspired by facebook AI. And played around with bootstrap and Sass
