@@ -4,20 +4,21 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Profile - The Inn</title>
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <script src="https://kit.fontawesome.com/57518a1e7d.js" crossorigin="anonymous" defer></script>
-        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js" defer></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+        <link rel="stylesheet" href="../dist/css/styles.css" />
+
     </head>
     <header class="bg-primary p-2 mb-3">
         <div class="container p-0">
-            <div class="row align-items-center justify-content-between">
-                <div class="col align-items-center flex-wrap">
-                    <a href="#" class="text-dark text-decoration-none">
+            <div class="d-flex row-flex justify-content-between align-items-center">
+                    <a href="/feed/index.html" class="text-dark text-decoration-none">
                         <div>The Inn</div>
                     </a>
-                </div>
-                <form class="col-4 col-sm-6 col-lg-5 col-xl-4" role="search">
+                <form class="" role="search">
                     <div class="input-group align-items-center">
                         <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" />
                         <div class="input-group-append">
@@ -27,31 +28,32 @@
                         </div>
                     </div>
                 </form>
-                <div class="dropdown text-end col">
+                <div class="dropdown text-end">
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle" />
                     </a>
 
                     <ul class="dropdown-menu text-small">
-                        <li><a class="dropdown-item" href="#">Settings</a></li>
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="../profile/index.html">Profile</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        <li><a class="dropdown-item" href="../index.html">Sign out</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
     <body>
-        <section class="profile-about">
+        <div class="container p-0">
+            <div class="row">                    
+                <section class="profile-about">
             <div class="container border mb-3 p-3">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid" alt="..." />
+                        <img src="/images/Placeholder-image.jpg" class="img-fluid" alt="..." />
                     </div>
                     <div class="col order-md-first">
-                        <h1>User Name</h1>
-                        <h2>About</h2>
+                        <h1 class="display-5 mb-4">User Name</h1>
+                        <h2 class="display-6 mb-2">About</h2>
                         <p>Current Work place</p>
                         <p>Current School</p>
                         <p>Current Hometown</p>
@@ -61,153 +63,261 @@
                 </div>
             </div>
         </section>
-        <section class="profile-photos">
-            <div class="container border mb-3 p-3">
-                <div class="row align-items-center justify-content-between flex-wrap">
-                    <h2 class="col">Photos</h2>
-                    <a href="#" class="# col-auto">See all photos</a>
-                </div>
-                <div class="row">
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="profile-friends">
-            <div class="container border mb-3 p-3">
-                <div class="row align-items-center justify-content-between flex-wrap">
-                    <h2 class="col">Friends</h2>
-                    <a href="#" class="# col-auto">See all friends</a>
-                </div>
-                <div class="row">
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                    <div class="col-4 p-2">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
-                            <p>User Name</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="profile-posts">
-            <div class="container border mb-3 p-3">
-                <div class="row align-items-center justify-content-between flex-wrap border-bottom">
-                    <h2 class="col">Posts</h2>
-                    <a href="#" class="col-auto">See all posts</a>
-                </div>
-                <div class="row p-2">
-                    <div class="col-4">
-                        <a href="#" class="text-dark text-decoration-none">
-                            <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col">
-                        <p>User Name</p>
-                        <p>Post Time</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <img src="/images/Placeholder-image.jpg" class="img-fluid" alt="..." />
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut justo et ipsum tempus semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ac nisl commodo, tincidunt
-                        lacus nec, commodo purus. Quisque faucibus lectus vel.
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <p><i class="fa-solid fa-thumbs-up me-1"></i>User Name, User Name & 67 others</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <button class="btn btn-primary w-100"><i class="fa-solid fa-thumbs-up me-1"></i>Like</button>
-                    </div>
-                    <div class="col-4">
-                        <button class="btn btn-primary w-100"><i class="fa-solid fa-comment me-1"></i>Comment</button>
-                    </div>
-                    <div class="col-4">
-                        <button class="btn btn-primary w-100"><i class="fa-solid fa-share me-1"></i>Share</button>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col">
-                        <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid" alt="..." />
-                    </div>
-                    <div class="col">
-                        <div class="input-group input-group-lg">
-                            <textarea class="form-control" aria-label="With textarea" placeholder="Your comment..."></textarea>
-                            <button class="btn btn-outline-secondary" type="button"><i class="fa-regular fa-face-smile"></i></button>
-                            <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-camera"></i></button>
+    </div>
+</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                <section class="profile-photos">
+                    <div class="container border mb-3 p-3">
+                        <div class="row align-items-center justify-content-between flex-wrap">
+                            <h2 class="col">Photos</h2>
+                            <a href="#" class="# col-auto">See all photos</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                </a>
+                            </div>
                         </div>
                     </div>
+                </section>
+                <section class="profile-friends">
+                    <div class="container border mb-3 p-3">
+                        <div class="row align-items-center justify-content-between flex-wrap">
+                            <h2 class="col">Friends</h2>
+                            <a href="#" class="col-auto">See all friends</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                            <div class="col-4 p-2">
+                                <a href="#" class="text-dark text-decoration-none">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded img-fluid" alt="..." />
+                                    <p>User Name</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                <div class="col-lg-8">
+                    <section class="profile-posts">
+                        <div class="container mb-3 p-3 border">
+                            <div class="flex-row d-flex justify-content-between align-items-center">
+                                <h2 class="">Posts</h2>
+                                <a href="#" class="">See all posts</a>
+                            </div>
+                            <div class="card p-2 mb-3">
+                            <div class="d-flex flex-row">
+                                <div class="pe-2 pt-2">
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid img-profile-icon" alt="..." />
+                                    </a>
+                                </div>
+                                <div class="p-2">
+                                    <p>User Name</p>
+                                    <p>Post Time</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="/images/Placeholder-image.jpg" class="img-fluid" alt="..." />
+            
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut justo et ipsum tempus semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ac nisl commodo, tincidunt
+                                    lacus nec, commodo purus. Quisque faucibus lectus vel.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p><i class="fa-solid fa-thumbs-up me-1"></i>User Name, User Name & 67 others</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-thumbs-up me-1"></i>Like</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-comment me-1"></i>Comment</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-share me-1"></i>Share</button>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="pe-2 pt-2">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid img-profile-icon" alt="..." />
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea class="form-control input-lg" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <label for="floatingTextarea">Comments</label>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-2 mb-3">
+                            <div class="d-flex flex-row">
+                                <div class="pe-2 pt-2">
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid img-profile-icon" alt="..." />
+                                    </a>
+                                </div>
+                                <div class="p-2">
+                                    <p>User Name</p>
+                                    <p>Post Time</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="/images/Placeholder-image.jpg" class="img-fluid" alt="..." />
+            
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut justo et ipsum tempus semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ac nisl commodo, tincidunt
+                                    lacus nec, commodo purus. Quisque faucibus lectus vel.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p><i class="fa-solid fa-thumbs-up me-1"></i>User Name, User Name & 67 others</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-thumbs-up me-1"></i>Like</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-comment me-1"></i>Comment</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-share me-1"></i>Share</button>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="pe-2 pt-2">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid img-profile-icon" alt="..." />
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea class="form-control input-lg" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <label for="floatingTextarea">Comments</label>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card p-2 mb-3">
+                            <div class="d-flex flex-row">
+                                <div class="pe-2 pt-2">
+                                    <a href="#" class="text-dark text-decoration-none">
+                                        <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid img-profile-icon" alt="..." />
+                                    </a>
+                                </div>
+                                <div class="p-2">
+                                    <p>User Name</p>
+                                    <p>Post Time</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="/images/Placeholder-image.jpg" class="img-fluid" alt="..." />
+            
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut justo et ipsum tempus semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus ac nisl commodo, tincidunt
+                                    lacus nec, commodo purus. Quisque faucibus lectus vel.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p><i class="fa-solid fa-thumbs-up me-1"></i>User Name, User Name & 67 others</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-thumbs-up me-1"></i>Like</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-comment me-1"></i>Comment</button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-primary w-100"><i class="fa-solid fa-share me-1"></i>Share</button>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="pe-2 pt-2">
+                                    <img src="/images/Placeholder-image.jpg" class="rounded-circle img-fluid img-profile-icon" alt="..." />
+                                </div>
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea class="form-control input-lg" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                        <label for="floatingTextarea">Comments</label>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </section>
+        </div>
+        
+        
     </body>
 </html>
